@@ -42,9 +42,9 @@ a {
 	padding: 17px 0;
 	background: #9C69E2;
 	color: #FFFFFF;
-   border-radius: 50px;
-   border: none;
-   font-size: 18px;
+	border-radius: 50px;
+	border: none;
+	font-size: 18px;
 	font-weight: 700;
 	display: block;
 	transition: all 0.5s ease;
@@ -60,47 +60,47 @@ a {
 /* HEADER */
 
 .header {
-   padding: 65px 15px 100px;
+ 	padding: 65px 15px 100px;
 }
 .header__wrap {
-   display: flex;
-   align-items: center;
+ 	display: flex;
+ 	align-items: center;
 }
 .menu__list {
-   display: flex;
+   	display: flex;
 }
 .menu__item a {
 	color: #4B5D68;
-   font-size: 16px;
+   	font-size: 16px;
 }
 .menu__item_active a {
 	color: #212353;
 	font-weight: bold;
 }
-.menu__item:not(:last-child){
-   margin-right: 40px;
-}
+.menu__item:not(:last-child) {
+   	margin-right: 40px;
+}	
 .logo {
-   margin-right: 121px;
+  	 margin-right: 121px;
 }
 .offer {
-   margin-top: 143px;
-   display: flex;
+   	margin-top: 143px;
+   	display: flex;
 	position: relative;
 }
 .offer__title {
-   font-size: 80px;
+  	 font-size: 80px;
 	margin-bottom: 50px;
 }
 .offer__info {
-   max-width: 645px;
+   	max-width: 645px;
 	position: relative;
 	z-index: 10;
 }
 .offer__text {
- width: 380px;
- line-height: 160%;
- margin-bottom: 50px;
+	 width: 380px;
+	 line-height: 160%;
+	 margin-bottom: 50px;
 }
 .offer__img  {
 	position: absolute;
@@ -142,9 +142,8 @@ a {
 }
 .features {
 	text-align: center;
-    width: 50%;
-    margin: 0 auto;
-
+	width: 50%;
+	margin: 0 auto;
 }
 .features__title {
 	margin-bottom: 50px;
@@ -155,7 +154,7 @@ a {
 .features-cards {
 	display: flex;
 	flex-wrap: wrap;
-}
+}		
 .card {
 	position: relative;
 	display: inline-block;
@@ -168,7 +167,7 @@ a {
 	position: absolute;
 	width: 220px;
 	left: 45%;
-   top: 14%;
+   	top: 14%;
 }
 .card__title {
 	font-weight: normal;
@@ -340,12 +339,12 @@ a {
 	font-weight: bold;
 }
 /*TODO: старайтесь не опечатываться в английских словах -> footer__address*/
-.footer__adress {
+.footer__address {
 	width: 255px;
 	margin-bottom: 10px;
 }
 /*TODO: старайтесь не опечатываться в английских словах -> footer__rights*/
-.footer__rigths {
+.footer__rights {
 	font-size: 12px;
 	color: #212353;
 	letter-spacing: 0.01em;
@@ -379,113 +378,110 @@ a {
 	position: absolute;
 	color: #fff;
 	top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 .socials__item:not(:last-child) {
 	margin-right: 14px;
 }
 
-
-
 /* * Large: 992px - 1199px */
 @media (max-width: 1199px) {
-	.container {
-		max-width: 960px;
-	}
-	.offer__img_main,
-	.offer__img {
-		width: 80%;
-		right: -7%;
-    	top: 45%;
-	}
-	.card__info {
-		left: 55%;
-	}
+.container {
+	max-width: 960px;
 }
-
+.offer__img_main,
+.offer__img {
+	width: 80%;
+	right: -7%;
+    	top: 45%;
+}
+.card__info {
+	left: 55%;
+}
+}
 
 /* Medium: 768px - 991px */
 @media (max-width: 991px) {
-	.container {
-		max-width: 720px;
-	}
-	.offer {
-		margin-top: 45px;
-	}
-	.offer__img {
-		top: 80%;
-	}
-	.storage__info {
-		width: 80%;
-		padding: 20px;
-	}
-	.feature {
-		padding: 10px;
-	}
-	.features, .card, .offer__text, .storage__img img {
-		width: 100%;
-	}
-	.features-cards {
-		flex-direction: column;
+.container {
+	max-width: 720px;
+}
+.offer {
+	margin-top: 45px;
+}
+.offer__img {
+	top: 80%;
+}
+.storage__info {
+	width: 80%;
+	padding: 20px;
+}
+.feature {
+	padding: 10px;
+}
+.features, .card, .offer__text, .storage__img img {
+	width: 100%;
+}
+.features-cards {
+	flex-direction: column;
     	align-items: center;
-	}
-	.card__info {
-		left: 35%;
-	}
-	.card:not(:last-child), .features__title {
-		margin-bottom: 20px;
-	}
-	.testimonials {
-		padding-bottom: 50px;
-	}
-	.review, .footer {
-		padding: 45px;
-	}
-	.slider, .features {
-		width: 95%;
-	}
-	.review__title {
-		margin-bottom: 40px;
-	}
-	.features__text {
-		margin-bottom: 10px;
-	}
+}
+.card__info {
+	left: 35%;
+}
+.card:not(:last-child), .features__title {
+	margin-bottom: 20px;
+}
+.testimonials {
+	padding-bottom: 50px;
+}
+.review, .footer {
+	padding: 45px;
+}
+.slider, .features {
+	width: 95%;
+}
+.review__title {
+	margin-bottom: 40px;
+}
+.features__text {
+	margin-bottom: 10px;
+}
 }
 
 /* Small: 576px - 767px */
 @media (max-width: 767px) {
-	.container {
-		max-width: 540px;
-	}
-	.header {
-		padding: 30px;
-	}
-	.offer__title {
-		font-size: 50px;
-		margin-bottom: 20px;
-	}
-	.offer__text {
-		margin-bottom: 20px;
-	}
-	.offer {
-		text-align: center;
-	}
-	.offer__img {
-		display: none;
-	}
-	.offer__btn, .slider__text {
-		width: 100%;
-	}
-	.storage {
-		padding: 20px;
-	}
-	.storage__img {
-		display: none;
-	}
-	.card__info {
-		left: 51%;
-	}
+.container {
+	max-width: 540px;
+}
+.header {
+	padding: 30px;
+}
+.offer__title {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.offer__text {
+	margin-bottom: 20px;
+}
+.offer {
+	text-align: center;
+}
+.offer__img {
+	display: none;
+}
+.offer__btn, .slider__text {
+	width: 100%;
+}
+.storage {
+	padding: 20px;
+}
+.storage__img {
+	display: none;
+}
+.card__info {
+	left: 51%;
+}
 }
 /*TODO: отсюда начинается небрежное форматирование, отступы должны быть на своем месте, фигурные скобки
    показывают к какому блоку относятся. Отступы то 2, то 4 пробела, то отбиты табами, нужно что-то выбрать одно.
@@ -493,60 +489,58 @@ a {
 */
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
-	.container {
-		padding: 0 15px;
-	}
-	.menu__item:not(:last-child) {
-		margin-right: 12px;
-  }
-	.logo {
-		margin-right: 44px;
-  }
-  .offer__title {
-	  font-size: 44px;
-  }
-	.title {
-		font-size: 26px;
-	}
-	.offer__text {
-		font-size: 15px;
-	}
-	.slider {
-		padding: 25px;
-	}
-
-	.card__img {
-		display: none;
-	}
-	.card {
-		display: flex;
-    flex-direction: column;
-    align-items: center;
-	 text-align: center;
-	}
-	.card__text, .slider__text {
-		font-size: 14px;
-	}
-	.card__info {
-		position: static;
-		width: 100%;
-	}
-	.card__text, .features__text, .footer__logo {
-		margin-bottom: 25px;
-	}
-	.storage__info {
-		margin-left: 19px;
-		width: 100%;
-    }
-	.testimonials {
-		padding-top: 20px;
-	}
-	.slider__photo {
-		text-align: center;
-	}
-
-	.footer__contact, .slider {
-		flex-direction: column;
-  }
+.container {
+	padding: 0 15px;
+}
+.menu__item:not(:last-child) {
+	margin-right: 12px;
+}
+.logo {
+	margin-right: 44px;
+}
+.offer__title {
+	font-size: 44px;
+}
+.title {
+	font-size: 26px;
+}
+.offer__text {
+	font-size: 15px;
+}
+.slider {
+	padding: 25px;
+}
+.card__img {
+	display: none;
+}
+.card {
+	display: flex;
+    	flex-direction: column;
+   	align-items: center;
+	text-align: center;
+}
+.card__text, .slider__text {
+	font-size: 14px;
+}
+.card__info {
+	position: static;
+	width: 100%;
+}
+.card__text, .features__text, .footer__logo {
+	margin-bottom: 25px;
+}
+.storage__info {
+	margin-left: 19px;
+	width: 100%;
+}
+.testimonials {
+	padding-top: 20px;
+}
+.slider__photo {
+	text-align: center;
+}
+.footer__contact, .slider {
+	flex-direction: column;
+}
 }
 
